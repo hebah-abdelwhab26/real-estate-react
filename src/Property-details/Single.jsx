@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 
-const API_URL = "http://127.0.0.1:8000/api/properties";
+const API_URL = "/data/properties.json";
 
 function Single() {
   const { id } = useParams();
@@ -231,3 +231,4 @@ function Single() {
 }
 
 export default Single;
+

@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-const API_URL = "http://127.0.0.1:8000/api/properties";
+const API_URL = "/data/properties.json";
 
 const tabs = [
   { id: "apartment", label: "Apartment", types: ["شقة", "Apartment", "apartment"] },

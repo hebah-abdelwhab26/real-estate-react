@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import AllCompo from "../components/AllCompo";
 
-const API_URL = "http://127.0.0.1:8000/api/properties";
+const API_URL = "/data/properties.json";
 
 function SectionPro() {
   const [data, setData] = useState([]);
@@ -202,3 +202,4 @@ function SectionPro() {
 }
 
 export default SectionPro;
+
