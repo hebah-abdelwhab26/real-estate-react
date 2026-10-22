@@ -1,76 +1,53 @@
-# 🏡 Real Estate Explorer
+# Real Estate Explorer | استكشاف العقارات
 
-A React-based web application for browsing real estate listings, exploring property details, and searching for properties through a simple and user-friendly interface.
+## 🇸🇦 الوصف باللغة العربية
 
-## 📌 About the Project
+مشروع ويب لاستعراض العقارات، بدأ من قالب HTML جاهز، ثم قمتُ بتحويله إلى تطبيق تفاعلي باستخدام React، مع تطوير بنية المكونات وتحسين تجربة التصفح والتنقل بين الصفحات.
 
-Real Estate Explorer is a real estate browsing application built by customizing and extending a pre-built React template to meet the project's requirements.
+عملتُ على تخصيص الواجهة بما يتناسب مع طبيعة المشروع، وإضافة وظائف استعراض العقارات والبحث عنها، وإنشاء صفحات لعرض تفاصيل كل عقار، إلى جانب استخدام بيانات JSON محلية لعرض معلومات العقارات داخل التطبيق.
 
-The application presents property information in an organized layout, provides dedicated property detail views, and includes a search feature to help users find relevant properties. The application uses local JSON files as its data source instead of an external API.
+### أبرز المميزات
+- تحويل قالب HTML ثابت إلى تطبيق React تفاعلي.
+- عرض العقارات ومعلوماتها بطريقة منظمة.
+- إضافة خاصية البحث عن العقارات.
+- عرض تفاصيل كل عقار في صفحة مخصصة.
+- تنظيم التنقل بين صفحات التطبيق.
+- استخدام ملفات JSON محلية كمصدر لبيانات العقارات.
+- تخصيص مكونات الواجهة وتطويرها بما يتناسب مع متطلبات المشروع.
 
-## ✨ Features
+### التقنيات المستخدمة
+React.js، JavaScript، JSON، HTML5، CSS3.
 
-- **Property Listings:** Browse properties and explore their main information.
-- **Property Search:** Search for properties using the available search functionality.
-- **Property Details:** View additional information about individual properties.
-- **Local JSON Data:** Display property information using local JSON data files.
-- **Customized UI:** Adapt and enhance an existing template to suit the project's needs.
-- **Navigation:** Move between application pages using React Router.
+### مساهمتي في المشروع
+تحويل القالب الأصلي إلى تطبيق React، وتنظيم المكونات والصفحات، وتطوير وظائف البحث واستعراض العقارات وتفاصيلها، وإعداد عرض البيانات المحلية وتحسين تجربة المستخدم.
 
-## 🛠️ Technologies Used
+**المعاينة الحية:** https://lively-alfajores-e49675.netlify.app/
 
-- React.js
-- JavaScript (ES6+)
-- JSON
-- React Router DOM
-- HTML5
-- CSS3
+**الكود المصدري:** https://github.com/hebah-abdelwhab26/real-estate-react
 
-## 👩‍💻 My Contribution
+---
 
-- Customized and extended a pre-built React template.
-- Modified UI components to fit the real estate application.
-- Added and enhanced property browsing and search functionality.
-- Integrated local JSON data into the application.
-- Improved page organization and the browsing experience.
+## 🇬🇧 English Description
 
-## 🚀 Getting Started
+Real Estate Explorer is a real estate web application that started as a pre-built HTML template and was transformed into an interactive React application.
 
-### Prerequisites
+I converted the original template into React, organized the application components, customized the interface, and added functionality for browsing property listings, searching for properties, viewing individual property details, and navigating between pages. The application uses local JSON files as its data source to display property information.
 
-- Node.js
-- npm
+### Key Features
+- Converted a static HTML template into an interactive React application.
+- Organized and displayed property listings.
+- Implemented property search functionality.
+- Created dedicated property detail views.
+- Added navigation between application pages.
+- Integrated local JSON data for property information.
+- Customized and enhanced UI components to meet the project's requirements.
 
-### Installation
+### Technologies Used
+React.js, JavaScript, JSON, HTML5, and CSS3.
 
-Clone the repository:
+### My Contribution
+Converted the original HTML template into React, structured the application components and pages, implemented property browsing and search features, developed property detail views, and integrated local JSON data to support the application's functionality.
 
+**Live Demo:** https://lively-alfajores-e49675.netlify.app/
 
-git clone https://github.com/hebah-abdelwhab26/real-estate-react.git
-
-
-Navigate to the project directory:
-
-
-cd real-estate-react
-
-
-Install dependencies:
-
-
-npm install
-
-
-Start the application using the script configured in `package.json`. For Create React App projects, run:
-
-
-npm start
-
-
-## 📂 Repository
-
-[View the project source code on GitHub](https://github.com/hebah-abdelwhab26/real-estate-react)
-
-
-
-*This project demonstrates React development, UI template customization, local data handling, and property search functionality.*
+**Source Code:** https://github.com/hebah-abdelwhab26/real-estate-react
